@@ -1,11 +1,11 @@
 {
-  "name": "@pancakeswap-libs/pancake-swap-core",
-  "description": "🎛 Core contracts for the pancake protocol",
+  "name": "@dragonstashdefi-libs/dragon-stash-defi-core",
+  "description": "🎛 Core contracts for the dragonstashdefi protocol",
   "version": "0.1.0",
-  "homepage": "https://pancakeswap.finance",
+  "homepage": "dragonstashdefi.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pancakeswap/pancake-swap-core.git"
+    "url": "https://github.com/DragonStashDefi/dragon-stash-defi-core"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
