@@ -1,13 +1,13 @@
 pragma solidity =0.5.16;
 
-import './interfaces/IDegERC20.sol';
+import './interfaces/IBaboERC20.sol';
 import './libraries/SafeMath.sol';
 
-contract DegERC20 is IDegERC20 {
+contract BaboERC20 is IBaboERC20 {
     using SafeMath for uint;
 
-    string public constant name = 'DragonStash LPs';
-    string public constant symbol = 'DEG-LP';
+    string public constant name = 'BaboonSwap LPs';
+    string public constant symbol = 'BABO-LP';
     uint8 public constant decimals = 18;
     uint  public totalSupply;
     mapping(address => uint) public balanceOf;
